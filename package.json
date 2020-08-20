@@ -1,15 +1,25 @@
 {
-  "name": "passport",
+  "name": "passport-login",
   "version": "1.0.0",
   "description": "This project is an exercise in constructing a login using passport/node/sequelize/postgres.",
   "main": "app.js",
   "scripts": {},
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/wjb313/jsbc-passport.git"
+  },
   "keywords": [],
   "author": "wjb",
   "license": "Unlicense",
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.1",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "pug": "^2.0.4"
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.3.2",
+    "pug": "^2.0.4",
+    "sequelize": "^6.3.4"
   }
 }
